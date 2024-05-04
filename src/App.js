@@ -7,15 +7,6 @@ import MovieCard from "./MovieCard";
 
 const API_URL = "http://www.omdbapi.com?apikey=8e726b4e";
 
-// const movie1 = {
-// 	Title: "American Pie 2",
-// 	Year: "2001",
-// 	imdbID: "tt0252866",
-// 	Type: "movie",
-// 	Poster:
-// 		"https://m.media-amazon.com/images/M/MV5BOTEyYjhiMjYtNjU3YS00NmQ4LTlhNTEtYTczNWY3MGJmNzE2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-// };
-
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchFilm, setSearchFilm] = useState("");
